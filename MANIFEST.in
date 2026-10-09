@@ -1,0 +1,6 @@
+include *.txt setup.py
+include tzpi/README.rst
+recursive-include tzpi *.py
+#recursive-include tzpi *.pot
+graft tzpi/zoneinfo
+#exclude test_zdump.py
